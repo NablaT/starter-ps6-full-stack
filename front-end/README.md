@@ -41,20 +41,6 @@ Then navigate to `http://localhost:4200/` to see the application. The app will a
 
 You can also use the command `ng serve` to start the app and also `ng serve --open` to open directly the app in the browser.
 
-## Run the linter
-
-```
-npm run lint
-```
-
-Note: The linter will be executed before each commit. If the linter fails then the commit will be canceled.
-
-Several issues from the linter can be fixed automatically (for instance: trailing whitespace, missing new line etc...) thanks to the following command:
-```
-npm run lint -- --fix
-```
-But you will have to manually manage the other types of error.
-
 ## Angular documentation
 
 The best documentation is the [Official Angular Documentation](https://angular.io/docs). 
