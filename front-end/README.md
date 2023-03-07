@@ -13,7 +13,7 @@ Click on the fork button on the page of the repository on github to create your 
 2) Clone your repository, your fork
 
 ```
-git clone https://github.com/YOUR_USERNAME/starter-quiz-two.git
+git clone https://github.com/2019-2020-ps6/2022-2023-ps6-NAME_OF_YOUR_TEAM
 ```
 
 4) Install the dependencies
