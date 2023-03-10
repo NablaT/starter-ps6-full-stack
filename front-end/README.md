@@ -6,19 +6,15 @@
 
 Note, for those using linux, you can find instruction to install NodeJS [here](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) (install the latest LTS Version 14.15.4).
 
-2) Fork this repository
-
-Click on the fork button on the page of the repository on github to create your own copy of the starter.
-
-2) Clone your repository, your fork
+2) Clone your repository
 
 ```
-git clone https://github.com/2019-2020-ps6/2022-2023-ps6-NAME_OF_YOUR_TEAM
+git clone git@github.com:2019-2020-ps6/2022-2023-ps6-NAME_OF_YOUR_TEAM.git
 ```
 
-4) Install the dependencies
+3) Install the dependencies
 
-Open command prompt inside the repository (starter-quiz-two) and run: 
+Open command prompt inside the cloned repository and run: 
 
 ```
 npm install
