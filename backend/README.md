@@ -7,6 +7,16 @@
 3) install the dependencies `npm install`. If you see any vunerabilities after the installation, like `5 moderate, 1 high`, you don't need to fix them. The project will build correctly.
 4) Run the application `npm run dev`
 
+### Error on windows:
+
+``` . is not recognized as an internal command```
+
+To fix it, two options:
+- Updating the `dev` command in the package.json as follow: `"dev": "%INIT_CWD%/node_modules/.bin/nodemon app/index.js",`
+- In case it doesn't work: 
+1) Install nodemon: `npm install -g nodemon`
+2) Run from git bash command line the nodemon command directly to start the server: `nodemon app/index.js` 
+
 ## Development
 
 During the development process, you should use `npm run dev` to have livereload each time you modify a file in `app` folder.
