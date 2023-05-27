@@ -13,6 +13,10 @@ export class AppFixture extends E2EComponentFixture {
     return this.page.getByRole('button', { name: 'Show success!' });
   }
 
+  clickOnShowButton() {
+      return this.getShowButton().click();
+  }
+
   getSuccessMessage() {
     return this.page.getByText('Wow!');
   }
