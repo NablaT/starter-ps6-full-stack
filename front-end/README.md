@@ -49,7 +49,7 @@ Before running the tests, you need to run the app with `npm start`. In another t
 
 ```
 npm run test:e2e
-``
+```
 
 ## Angular documentation
 
