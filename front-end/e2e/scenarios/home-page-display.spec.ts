@@ -1,10 +1,11 @@
 import { test, expect } from '@playwright/test';
+import { testUrl } from 'e2e/e2e.config';
 import { AppFixture } from 'src/app/app.fixture';
 
 // https://playwright.dev/docs/locators
 test.describe('Home page display', () => {
   test('Basic test', async ({ page }) => {
-    await page.goto('http://localhost:4200');
+    await page.goto(testUrl);
     const appComponentFixture = new AppFixture(page);
     // Using locators functions:
     // Using page element role: see the function declaration
