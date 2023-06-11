@@ -21,6 +21,14 @@ To fix it, two options:
 
 During the development process, you should use `npm run dev` to have livereload each time you modify a file in `app` folder.
 
+## Run the end to end tests
+
+Before running the tests, you need to run your front-end and back-end:
+
+1) Run your back-end: `npm run start:e2e`
+2) Run your front-end: `npm run start`
+3) Run the tests:  `npm run test:e2e`
+
 ## Run the linter
 
 ```
