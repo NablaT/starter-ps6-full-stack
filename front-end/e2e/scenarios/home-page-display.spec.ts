@@ -13,6 +13,7 @@ test.describe('Home page display', () => {
 
     // Search by text content. Partial and exact text.
     const description1 = await page.getByText('Start your');
+
     // For exact text: see the function declaration
     const description2 = await appComponentFixture.getDescription();
 
@@ -25,6 +26,10 @@ test.describe('Home page display', () => {
     expect(description1).toBeVisible();
     expect(description2).toBeVisible();
     expect(description3).toBeVisible();
+
+    // Error case : uncomment the two lines below : "Starting" does not exist
+    // const description4 = await page.getByText('Starting your first app');
+    // expect(description4).toBeVisible();
 
     // Success not visible
     let success = await appComponentFixture.getSuccessMessage();
@@ -46,4 +51,7 @@ test.describe('Home page display', () => {
     // Success message shouldn't be visible again.
     expect(success).not.toBeVisible();
   });
+
+  // TO GO FURTHER :
+  // Check the PS6-CORRECTION repo : https://github.com/NablaT/ps6-correction-td1-td2-v2/blob/master/front-end/e2e/scenarios/create-quiz.spec.ts
 });
