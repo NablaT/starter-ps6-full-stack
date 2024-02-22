@@ -4,12 +4,12 @@
 
 1) Install [NodeJS Installer](https://nodejs.org/en/download/)
 
-Note, for those using linux, you can find instruction to install NodeJS [here](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) (install the latest LTS Version 14.15.4).
+Note, for those using linux, you can find instruction to install NodeJS [here](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) (install the latest LTS Version 20.11.1).
 
 2) Clone your repository
 
 ```
-git clone git@github.com:2019-2020-ps6/2022-2023-ps6-NAME_OF_YOUR_TEAM.git
+git clone git@github.com:2019-2020-ps6/2023-2024-ps6-NAME_OF_YOUR_TEAM.git
 ```
 
 3) Install the dependencies

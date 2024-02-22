@@ -3,9 +3,14 @@
 ## Install & Run
 
 1) Install [NodeJS Installer](https://nodejs.org/en/download/) (you should already have NodeJS since it was a dependency of the Front-End)
-2) Fork the repository and clone your new repository `git clone https://github.com/PATH_TO_YOUR_BACK_END_REPOSITORY.git`
-3) install the dependencies `npm install`. If you see any vunerabilities after the installation, like `5 moderate, 1 high`, you don't need to fix them. The project will build correctly.
-4) Run the application `npm run dev`
+2) install the dependencies `npm install`. If you see any vunerabilities after the installation, like `5 moderate, 1 high`, you don't need to fix them. The project will build correctly.
+3) Run the application `npm run dev`
+
+## Test your back
+
+To test if your backend is running correctly, you first shouldn't see any error in the console, and you can then open postman (https://www.postman.com/downloads/) and launch the following request:
+
+`GET on http://localhost:9428/api/status` : it should return `"ok"` and you should see a log appear in the console.
 
 ### Error on windows:
 
