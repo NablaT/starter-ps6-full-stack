@@ -43,6 +43,11 @@ Then navigate to `http://localhost:4200/` to see the application. The app will a
 
 You can also use the command `ng serve` to start the app and also `ng serve --open` to open directly the app in the browser.
 
+## Install end-to-end tests framework
+
+1) Run `npm i -D @playwright/test playwright`
+2) Run `npx playwright install`
+
 ## Run the end to end tests
 
 Before running the tests, you need to run your front-end and back-end:
